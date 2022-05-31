@@ -31,7 +31,7 @@ const calculer = (valeur) => {
                 ecran.textContent += touche.innerHTML;
         }
     }
-}
+ }
 
 window.addEventListener('error', (e) => {
     alert('Une erreur est survenue dans votre calcul : ' + e.message)
